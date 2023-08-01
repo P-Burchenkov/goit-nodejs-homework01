@@ -7,14 +7,12 @@ const contactsPath = path.join(__dirname, "/db/contacts.json");
 async function listContacts() {
   const contactJson = await fs.readFile(contactsPath, "utf-8");
   const contacts = JSON.parse(contactJson);
-
   return contacts;
 }
 
 async function getContactById(contactId) {
   const contacts = await listContacts();
   const [contactById] = contacts.filter((contact) => contact.id === contactId);
-  console.log(contactById);
   return contactById || null;
 }
 
@@ -36,7 +34,6 @@ async function addContact(name, email, phone) {
   const newContact = { id: nanoid(), name, email, phone };
   contacts.push(newContact);
   writeContacts(contacts);
-  console.log(newContact);
   return newContact;
 }
 

@@ -58,27 +58,5 @@
     "name": "qwe",
     "email": "wqe@mainModule.com",
     "phone": "345456"
-  },
-  {
-    "id": "vRzQwR7IzG-eRO7pmWCpR",
-    "name": {
-      "name": "Mango",
-      "email": "mango@gmail.com",
-      "phone": "322-22-22"
-    }
-  },
-  {
-    "id": "aFF0d5sCcglx2vwPH7aeq",
-    "name": {
-      "name": "Mango",
-      "email": "mango@gmail.com",
-      "phone": "322-22-22"
-    }
-  },
-  {
-    "id": "kBuTHkyfVOgwOuNw9Q5kP",
-    "name": "nina",
-    "email": "email@mail.com",
-    "phone": "+380656565"
   }
 ]
